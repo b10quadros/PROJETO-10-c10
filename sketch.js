@@ -35,6 +35,9 @@ function draw() {
  
   //código para redefinir o plano de fundo
   if(sea.x < 0){
+    sea.x = sea.width/8;
+  }
+  if(sea.x < 0){
     sea.x = sea.width/2;
   }
     
